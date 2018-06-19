@@ -1,0 +1,54 @@
+.Player {
+  list-style-type: none;
+  color: black;
+  padding: 10px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+}
+.Player__name {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  padding: 10px;
+  width: 200px;
+}
+.Player__score {
+  color: black;
+  padding: 10px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+}
+
+.Player__button {
+  color: black;
+  padding: 10px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  background-color: blue;
+}
+
+.Player__button:hover {
+  cursor: pointer;
+  background-color: brown;
+  color: white;
+}
+
+.Player__button_remove {
+  padding: 5px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color:red;
+}
+
+.Player__button_remove:hover {
+  cursor: pointer;
+  background-color: brown;
+  color: white;
+}

@@ -1,0 +1,9 @@
+.PlayersList li {
+  background-color: aquamarine;
+}
+
+.PlayersList {
+  padding: 0;
+  width: 400px;
+  margin: 0;
+}
